@@ -1,0 +1,23 @@
+.sub-header{
+    text-align: center;
+}
+.menu-container{
+    max-width : 700px;
+    text-align: center;
+    position : relative;
+    margin : 0 auto;
+}
+.menu-container ul{
+
+}
+.menu-container ul li{
+    display : inline-block;
+}
+
+
+.current_location{
+    height : 30px;
+}
+.img-container{
+    width : 1000px;
+}

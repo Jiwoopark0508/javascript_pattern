@@ -1,0 +1,19 @@
+.display{
+    border : 1px solid black;
+}
+
+.display img{
+    opacity : 0.5;
+    z-index : 2;
+}
+
+ul{
+    list-style : none;
+}
+ul li{
+    display : inline-block;
+    margin : 0px 10px;
+}
+.cat-count{
+    z-index : 1;
+}

@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset = "utf-8">
+    <title>Cat Clickr</title>
+    <style type="text/css" >
+        .cat {
+            position : relative;
+            width : 300px;
+            margin : 10px;
+        }
+        .cat img{
+            opacity: 0.5;
+            width : 100%;
+        }
+        .cat h1{
+            position : absolute;
+            top : 25%;
+            left : 50%;
+            transform : translateX(-50%);
+        }
+        .cat h2{
+            position : absolute;
+            top : 40%;
+            left : 50%;
+            transform : translateX(-50%);
+        }
+        .container{
+            margin : 0 auto;
+            display: flex;
+            flex-wrap : wrap;
+        }
+        .display_box {
+            border : 1px solid black;
+            float : right;
+            width : 300px;
+        }
+        .display_box img{
+            width : 100%;
+        }
+
+    </style>
+
+    <script type="text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src = "catclicker.js"></script>
+
+</head>
+<body>
+    <div class = "container">
+        
+       <div class = "display_box cat">
+
+       </div>
+    </div>
+</body>
+</html>
